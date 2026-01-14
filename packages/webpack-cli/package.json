@@ -1,0 +1,19 @@
+{
+  "name": "webpack-cli",
+  "version": "0.0.1",
+  "description": "package",
+  "scripts": {},
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "bin": {
+    "webpack-cli": "./bin/cli.js"
+  },
+  "files": [
+    "./lib",
+    "./bin"
+  ],
+  "devDependencies": {
+    "commander": "^13.0.0",
+    "webpack": "workspace:*"
+  }
+}

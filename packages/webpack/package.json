@@ -1,0 +1,16 @@
+{
+  "name": "webpack",
+  "version": "0.0.1",
+  "description": "package",
+  "scripts": {},
+  "main": "./lib/index.ts",
+  "types": "./lib/index.ts",
+  "bin": "./bin/webpack.js",
+  "files": [
+    "./lib",
+    "./bin"
+  ],
+  "devDependencies": {
+    "webpack-cli": "workspace:*"
+  }
+}
